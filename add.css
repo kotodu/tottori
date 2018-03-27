@@ -1,0 +1,103 @@
+		/*http://www.tagindex.com/template/menu/hor1_menu4.html*/
+		/* --- ナビゲーションバー --- */
+		div.nav {
+		width: 100%; /* ナビゲーションの幅 */
+		background: #000000 url(menu.png) repeat-x top; /* ナビゲーションの背景 */
+		border-top: 1px #333333 solid; /* 上境界線 */
+		border-bottom: 1px #666666 solid; /* 下境界線 */
+		font-size: 80%;
+		}
+
+		/* --- メニューエリア --- */
+		div.nav ul.nl {
+		width: 600px; /* メニューの幅 */
+		margin: 0 auto; /* センターに配置 */
+		padding: 0;
+		background: #000000 url(menu.png) repeat-x top; /* メニューの背景 */
+		border-left: 1px #333333 solid; /* メニューの左境界線 */
+		border-right: 1px #666666 solid; /* メニューの右境界線 */
+		list-style-type: none;
+		text-align: center;
+		}
+
+		/* --- メニュー項目 --- */
+		div.nav ul.nl li {
+		width: 20%; /* 項目の幅 */
+		float: left;
+		}
+
+		/* --- リンク --- */
+		div.nav ul.nl li a {
+		display: block;
+		position: relative; /* IE6用 */
+		padding: 9px 2px; /* リンクエリアのパディング（上下、左右） */
+		border-left: 1px #666666 solid; /* リンクエリアの左境界線 */
+		border-right: 1px #333333 solid; /* リンクエリアの右境界線 */
+		text-decoration: none; /* テキストの下線（なし） */
+		font-weight: bold; /* 太字 */
+		}
+		/* --- リンクテキストの色 --- */
+		div.nav ul.nl li a:link {
+		color: #000000;
+		}
+		div.nav ul.nl li a:visited {
+		color: #ffffff;
+		}
+		div.nav ul.nl li a:hover {
+		color: #ff8000;
+		}
+		div.nav ul.nl li a:active {
+		color: #ff8000;
+		}
+
+		/* --- clearfix --- */
+		.clearFix:after {
+		content: ".";
+		display: block;
+		height: 0;
+		clear: both;
+		visibility: hidden;
+		}
+		.clearFix {
+		min-height: 1px;
+		}
+		/* --- 見出しエリア --- */
+		div.heading {
+		width: 600px; /* 見出しエリアの幅 */
+		margin-bottom: 1em;
+		padding: 4px 0; /* 見出しエリアのパディング（上下、左右） */
+		border-bottom: 1px #c0c0c0 solid; /* 見出しエリアの下境界線 */
+		}
+
+		/*http://www.tagindex.com/template/text/heading.html*/
+		/* --- 見出し --- */
+		div.heading h1 {
+		margin: 0;
+		padding: 3px 3px 0 5px; /* 見出しのパディング（上右下左） */
+		border-left: 5px #cd853f solid; /* 見出しの左境界線 */
+		font-size: 200%; /* 見出しの文字サイズ */
+		line-height: 200%;
+		}
+		/*ここまで*/
+		
+		body{
+		margin:0;
+		}
+		div.Xsiru1{
+		margin:100px;
+		}
+		div.Xsiru2{
+		text-align:center;
+		}
+		
+		div.Xsiru3{
+		display:table-cell;
+		height:200px;
+		width:600px;
+		float:right;
+		}
+		div.Xsiru4{
+		display:table-cell;
+		height:200px;
+		width:200px;
+		}
