@@ -1,42 +1,42 @@
 		/*http://www.tagindex.com/template/menu/hor1_menu4.html*/
-		/* --- ƒiƒrƒQ[ƒVƒ‡ƒ“ƒo[ --- */
+		/* --- ãƒŠãƒ“ã‚²ãƒ¼ã‚·ãƒ§ãƒ³ãƒãƒ¼ --- */
 		div.nav {
-		width: 100%; /* ƒiƒrƒQ[ƒVƒ‡ƒ“‚Ì• */
-		background: #000000 url(menu.png) repeat-x top; /* ƒiƒrƒQ[ƒVƒ‡ƒ“‚Ì”wŒi */
-		border-top: 1px #333333 solid; /* ã‹«ŠEü */
-		border-bottom: 1px #666666 solid; /* ‰º‹«ŠEü */
+		width: 100%; /* ãƒŠãƒ“ã‚²ãƒ¼ã‚·ãƒ§ãƒ³ã®å¹… */
+		background: #000000 url(menu.png) repeat-x top; /* ãƒŠãƒ“ã‚²ãƒ¼ã‚·ãƒ§ãƒ³ã®èƒŒæ™¯ */
+		border-top: 1px #333333 solid; /* ä¸Šå¢ƒç•Œç·š */
+		border-bottom: 1px #666666 solid; /* ä¸‹å¢ƒç•Œç·š */
 		font-size: 80%;
 		}
 
-		/* --- ƒƒjƒ…[ƒGƒŠƒA --- */
+		/* --- ãƒ¡ãƒ‹ãƒ¥ãƒ¼ã‚¨ãƒªã‚¢ --- */
 		div.nav ul.nl {
-		width: 600px; /* ƒƒjƒ…[‚Ì• */
-		margin: 0 auto; /* ƒZƒ“ƒ^[‚É”z’u */
+		width: 600px; /* ãƒ¡ãƒ‹ãƒ¥ãƒ¼ã®å¹… */
+		margin: 0 auto; /* ã‚»ãƒ³ã‚¿ãƒ¼ã«é…ç½® */
 		padding: 0;
-		background: #000000 url(menu.png) repeat-x top; /* ƒƒjƒ…[‚Ì”wŒi */
-		border-left: 1px #333333 solid; /* ƒƒjƒ…[‚Ì¶‹«ŠEü */
-		border-right: 1px #666666 solid; /* ƒƒjƒ…[‚Ì‰E‹«ŠEü */
+		background: #000000 url(menu.png) repeat-x top; /* ãƒ¡ãƒ‹ãƒ¥ãƒ¼ã®èƒŒæ™¯ */
+		border-left: 1px #333333 solid; /* ãƒ¡ãƒ‹ãƒ¥ãƒ¼ã®å·¦å¢ƒç•Œç·š */
+		border-right: 1px #666666 solid; /* ãƒ¡ãƒ‹ãƒ¥ãƒ¼ã®å³å¢ƒç•Œç·š */
 		list-style-type: none;
 		text-align: center;
 		}
 
-		/* --- ƒƒjƒ…[€–Ú --- */
+		/* --- ãƒ¡ãƒ‹ãƒ¥ãƒ¼é …ç›® --- */
 		div.nav ul.nl li {
-		width: 20%; /* €–Ú‚Ì• */
+		width: 20%; /* é …ç›®ã®å¹… */
 		float: left;
 		}
 
-		/* --- ƒŠƒ“ƒN --- */
+		/* --- ãƒªãƒ³ã‚¯ --- */
 		div.nav ul.nl li a {
 		display: block;
-		position: relative; /* IE6—p */
-		padding: 9px 2px; /* ƒŠƒ“ƒNƒGƒŠƒA‚ÌƒpƒfƒBƒ“ƒOiã‰ºA¶‰Ej */
-		border-left: 1px #666666 solid; /* ƒŠƒ“ƒNƒGƒŠƒA‚Ì¶‹«ŠEü */
-		border-right: 1px #333333 solid; /* ƒŠƒ“ƒNƒGƒŠƒA‚Ì‰E‹«ŠEü */
-		text-decoration: none; /* ƒeƒLƒXƒg‚Ì‰ºüi‚È‚µj */
-		font-weight: bold; /* ‘¾š */
+		position: relative; /* IE6ç”¨ */
+		padding: 9px 2px; /* ãƒªãƒ³ã‚¯ã‚¨ãƒªã‚¢ã®ãƒ‘ãƒ‡ã‚£ãƒ³ã‚°ï¼ˆä¸Šä¸‹ã€å·¦å³ï¼‰ */
+		border-left: 1px #666666 solid; /* ãƒªãƒ³ã‚¯ã‚¨ãƒªã‚¢ã®å·¦å¢ƒç•Œç·š */
+		border-right: 1px #333333 solid; /* ãƒªãƒ³ã‚¯ã‚¨ãƒªã‚¢ã®å³å¢ƒç•Œç·š */
+		text-decoration: none; /* ãƒ†ã‚­ã‚¹ãƒˆã®ä¸‹ç·šï¼ˆãªã—ï¼‰ */
+		font-weight: bold; /* å¤ªå­— */
 		}
-		/* --- ƒŠƒ“ƒNƒeƒLƒXƒg‚ÌF --- */
+		/* --- ãƒªãƒ³ã‚¯ãƒ†ã‚­ã‚¹ãƒˆã®è‰² --- */
 		div.nav ul.nl li a:link {
 		color: #000000;
 		}
@@ -61,24 +61,24 @@
 		.clearFix {
 		min-height: 1px;
 		}
-		/* --- Œ©o‚µƒGƒŠƒA --- */
+		/* --- è¦‹å‡ºã—ã‚¨ãƒªã‚¢ --- */
 		div.heading {
-		width: 600px; /* Œ©o‚µƒGƒŠƒA‚Ì• */
+		width: 600px; /* è¦‹å‡ºã—ã‚¨ãƒªã‚¢ã®å¹… */
 		margin-bottom: 1em;
-		padding: 4px 0; /* Œ©o‚µƒGƒŠƒA‚ÌƒpƒfƒBƒ“ƒOiã‰ºA¶‰Ej */
-		border-bottom: 1px #c0c0c0 solid; /* Œ©o‚µƒGƒŠƒA‚Ì‰º‹«ŠEü */
+		padding: 4px 0; /* è¦‹å‡ºã—ã‚¨ãƒªã‚¢ã®ãƒ‘ãƒ‡ã‚£ãƒ³ã‚°ï¼ˆä¸Šä¸‹ã€å·¦å³ï¼‰ */
+		border-bottom: 1px #c0c0c0 solid; /* è¦‹å‡ºã—ã‚¨ãƒªã‚¢ã®ä¸‹å¢ƒç•Œç·š */
 		}
 
 		/*http://www.tagindex.com/template/text/heading.html*/
-		/* --- Œ©o‚µ --- */
+		/* --- è¦‹å‡ºã— --- */
 		div.heading h1 {
 		margin: 0;
-		padding: 3px 3px 0 5px; /* Œ©o‚µ‚ÌƒpƒfƒBƒ“ƒOiã‰E‰º¶j */
-		border-left: 5px #cd853f solid; /* Œ©o‚µ‚Ì¶‹«ŠEü */
-		font-size: 200%; /* Œ©o‚µ‚Ì•¶šƒTƒCƒY */
+		padding: 3px 3px 0 5px; /* è¦‹å‡ºã—ã®ãƒ‘ãƒ‡ã‚£ãƒ³ã‚°ï¼ˆä¸Šå³ä¸‹å·¦ï¼‰ */
+		border-left: 5px #cd853f solid; /* è¦‹å‡ºã—ã®å·¦å¢ƒç•Œç·š */
+		font-size: 200%; /* è¦‹å‡ºã—ã®æ–‡å­—ã‚µã‚¤ã‚º */
 		line-height: 200%;
 		}
-		/*‚±‚±‚Ü‚Å*/
+		/*ã“ã“ã¾ã§*/
 		
 		body{
 		margin:0;
