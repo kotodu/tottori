@@ -1,34 +1,32 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<title>バス路線図|鳥取busmap</title>
-	<meta name="keywords" content="路線図,バス,バス路線図,時刻表,地図,鳥取,日本交通,日ノ丸自動車">
-	<meta name="description" content="鳥取のバスを案内するウェブサイト;busmap of Tottori">
+	<title>鳥取＊busmap</title>
+	<meta charset="utf-8">
+	<meta name="keywords" content="鳥取市,鳥取県,路線図,バス,バス路線図,時刻表,地図,鳥取,日本交通,日ノ丸自動車">
+	<meta name="description" content="鳥取のバスを案内するウェブサイト; busmap of Tottori">
 	<meta name="author" content="busroutemap">
-	<link rel="stylesheet" href="add.css" type="text/css">
-
+	<link rel="stylesheet" href="cont/add20181006.css" type="text/css">
+	<!-- <link rel="stylesheet" href="add.css" type="text/css"> -->
+	<script type="text/javascript" src="cont/let.js"></script>
 </head>
 <body>
 <header>
-	<div class="nav">
-	<ul class="nl clearFix">
-	<li><a href="index.html">トップページ</a></li>
-	<li><a href="about.html">このサイトは？</a></li>
-	<li><a href="busroutemap.html">バス路線図</a></li>
-	<li><a href="timetable.html">バス時刻表</a></li>
-	<li><a href="https://twitter.com/busroutemap">Twitter</a></li>
+	<ul class="nav">
+	<li id="n1"><a href="index.html">トップページ</a></li>
+	<li id="n2"><a href="about.html">このサイトは？</a></li>
+	<li id="n3"><a href="busroutemap.html">バス路線図</a></li>
+	<li id="n4"><a href="timetable.html">バス時刻表</a></li>
+	<li id="n5"><a href="https://twitter.com/busroutemap">Twitter</a></li>
+	<li id="n6"><a href="https://mstdn.sanin.link/@busroutemap">mastodon</a></li>
 	</ul>
-	</div>
 </header>
 <main>
-	<div class="Xsiru1">
+	<div class="m1">
 		<div class="heading">
 			<h1>バス路線図ダウンロードページ</h1>
 		</div>
-		<h2>ライセンスは<a href="about.html">こちら</a>のページに有ります</h2>
-		<p>制作者は実地調査も行っておりますが、全てのバス路線を完全乗車したわけではありません。情報の差異による被害の責任は負いかねます。</p>
-		<p>なお、訂正などがありましたら管理人Twitter @busroutemap のDMへどうぞ。</p>
+		<h2>Licenseの変更予告を<a href="about.html">こちら</a>からご確認ください。</h2>
 		<p><b>データサイズにご注意を（1MB～10MB）</b></p>
 		<table border="1" width="1000" cellspacing="0" cellpadding="5" bordercolor="#000000">
 		<tr>
@@ -39,7 +37,7 @@
 			<p>
 			日本交通東部地区バス路線図01（公開開始：2016/10/17）
 			</p>
-			<p><a href="data/map01data.pdf">PDF版</a>　<a href="data/map01data.png">PNG版</a></p>
+			<p><a href="data/map01data.pdf">PDF版8MB</a>　<a href="data/map01data.png">PNG版2MB</a></p>
 			<p>
 			非地図ベースのバス路線図です。
 			</p>
@@ -60,7 +58,7 @@
 			<p>
 			日本交通東部地区バス路線図02（公開開始：2016/10/17）
 			</p>
-			<p><a href="data/map02data.pdf">PDF版</a>　<a href="data/map02data.png">PNG版</a></p>
+			<p><a href="data/map02data.pdf">PDF版5MB</a>　<a href="data/map02data.png">PNG版10MB</a></p>
 			
 			<p>
 			地図ベースのバス路線図です。
@@ -80,7 +78,7 @@
 		</th>
 		<th>
 			<p>公立鳥取環境大学専用便路線図（公開開始：2016/12/03）</p>
-			<p><a href="pdf/senyo.pdf">PDF版ダウンロード</a></p>
+			<p><a href="pdf/senyo.pdf">PDF版2MB</a></p>
 			<p>最終更新日：2016/12/03</p>
 		</th>
 		</tr>
@@ -93,7 +91,7 @@
 			<p>公立鳥取環境大学の生徒が乗車可能なバス以外を灰色にした、路線図02の差分です。</p>
 			<p>国府線の廃止は反映されていません。</p>
 			<p>なお、大学休日は、路線図01の全線に乗車できます</p>
-			<p><a href="pdf/main.pdf">PDF版ダウンロード</a></p>
+			<p><a href="pdf/main.pdf">PDF版1MB</a></p>
 			<p>最終更新日：2016/12/03</p>
 		</th>
 		</tr>
@@ -106,20 +104,17 @@
 			<p>日ノ丸自動車東部地区鳥取中心エリア路線図01（公開開始：2018/03/27）</p>
 			<p>日ノ丸自動車の東部地区一部エリアの<b>未完成</b>路線図です。</p>
 			<p>非地図ベース。</p>
-			<p><a href="data/map11data.pdf">PDF版</a>　<a href="data/map11data.png">PNG版</a></p>
+			<p><a href="data/map11data.pdf">PDF版0.2MB</a>　<a href="data/map11data.png">PNG版2MB</a></p>
 			<p>最終更新日：2018/03/27</p>
 		</th>
 		</tr>
 		</table>
 	</div>
-
 </main>
 <aside>
 </aside>
 <footer>
-	<div class="Xsiru2">
-		<p>管理人:busroutemap</p>
-	</div>
+	<p>©busroutemap</p>
 </footer>
 </body>
 </html>
