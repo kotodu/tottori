@@ -87,7 +87,7 @@ ul.nav li{
 
 /* 見出し関連 */
 div.heading {
-    width: 600px;
+    width: 80%;
     margin-bottom: 1em;
     padding: 4px 0px 4px 0px;
     border-bottom: 1px rgb(10, 10, 61) solid;
