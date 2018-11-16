@@ -40,8 +40,9 @@
 		<p id="i8"></p>
 		<p id="i9"></p>
 		<p id="i10"></p>
+		<p id="i11"></p>
 		<script>
-			console.log(logweb);
+			// console.log(logweb);
 			let i = 0;
 			for (i; i < logweb.length; i++){
 			document.getElementById('i'+(i+1)).textContent = logweb[i][0] + '   ' + logweb[i][1];
@@ -53,9 +54,21 @@
 		<img class="cimg" src="cont/nh_index.png" width=25% height=25% alt="topimage" title="topimage">
 		<div class="heading">
 		<h1>鳥取＊busmap2018年版 制作中</h1>
-		<h3>(a)公立鳥取環境大学にて2018年版を展示予定</h3>
+		<h3>現在の最新バージョン : v02</h3>
+		<p id="TT1"></p>
+		<p id="TT2"></p>
+		<p id="TT3"></p>
+		<p id="TT4"></p>
+		<script>
+			let tt = 0;
+			for (tt; tt < lastTTbusmap.length; tt++){
+			document.getElementById('TT'+(tt+1)).textContent = lastTTbusmap[tt];
+			};
+		</script>
+		<hr>
+		<h3>(公開方法a)公立鳥取環境大学にて2018年版を展示予定</h3>
 		<p>(2018/11/02追記)大学祭での展示は終了しました。</p>
-		<ul>
+		<!-- <ul>
 		<li>[日付]2018年10月20日,21日(土曜,日曜)</li>
 		<li>[場所]公立鳥取環境大学　メディアセンター(図書館)前の廊下</li>
 		<li>[時刻]両日とも、環謝祭(大学祭)開催時間中、常時</li>
@@ -63,8 +76,8 @@
 		<li>[詳細]JR鳥取駅南口から臨時シャトルバスで約20分</li>
 		<li>[注意]制作者本人は展示エリアに常駐していません</li>
 		<li>※時間帯によっては皆様からご意見を賜る可能性があります</li>
-		</ul>
-		<h3>(b)10月下旬に本webでも2018年版を公開予定</h3>
+		</ul> -->
+		<h3>(公開方法b)10月下旬に本webでも2018年版を公開予定</h3>
 		<p>公開日未定</p>
 		<p>(2018/11/02追記)本日公開しました。<a href="busroutemap.html">バス路線図ページ</a>最下部にあります。</p>
 		<br>
