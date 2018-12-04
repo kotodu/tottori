@@ -41,11 +41,17 @@
 		<p id="i9"></p>
 		<p id="i10"></p>
 		<p id="i11"></p>
+		<p id="i12"></p>
+		<p id="i13"></p>
 		<script>
 			// console.log(logweb);
-			let i = 0;
-			for (i; i < logweb.length; i++){
-			document.getElementById('i'+(i+1)).textContent = logweb[i][0] + '   ' + logweb[i][1];
+			// let i = 0;
+			// for (i; i < logweb.length; i++){
+			// document.getElementById('i'+(i+1)).textContent = logweb[i][0] + '   ' + logweb[i][1];
+			// };
+			let i = logweb.length-1;
+			for (i; i >= 0; i--){
+			document.getElementById('i'+(logweb.length-i)).textContent = logweb[i][0] + '   ' + logweb[i][1];
 			};
 		</script>
 		<noscript>
