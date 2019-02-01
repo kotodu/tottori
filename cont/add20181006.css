@@ -32,7 +32,7 @@ ul.nav a:active {
 
 /* display grid絡み */
 .nav{
-    background-color:rgb(130, 130, 230);
+    background-color:rgba(130, 130, 230,0.4);
     /* color: rgb(10, 10, 61); */
     font-size: 80%;
     height: 50px;
@@ -41,6 +41,7 @@ ul.nav a:active {
     margin: 20px 0px 20px 0px;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     /* これは縦にいくつ区切り線を入れるか */
+    width: 100%;
 }
 
 ul.nav li{
