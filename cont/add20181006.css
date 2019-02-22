@@ -38,10 +38,12 @@ ul.nav a:active {
     height: 50px;
     display: grid;
     text-align: center;
-    margin: 20px 0px 20px 0px;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    /* margin: 10vw 0 10vw 0; */
+    margin-left: 10vw;
+    margin-top: 0;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     /* これは縦にいくつ区切り線を入れるか */
-    width: 100%;
+    width: 80vw;
 }
 
 ul.nav li{
@@ -64,25 +66,31 @@ ul.nav li{
     grid-row:1/1;
 }
 
-#n3{
+#nn{
     /* width:100px; */
     grid-column: 3/4;
     grid-row:1/1;
 }
-#n4{
+
+#n3{
     /* width:100px; */
     grid-column: 4/5;
     grid-row:1/1;
 }
-#n5{
+#n4{
     /* width:100px; */
     grid-column: 5/6;
+    grid-row:1/1;
+}
+#n5{
+    /* width:100px; */
+    grid-column: 6/7;
     grid-row:1/1;
 }
 
 #n6{
     /* width:100px; */
-    grid-column: 6/7;
+    grid-column: 7/8;
     grid-row:1/1;
 }
 
